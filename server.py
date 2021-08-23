@@ -95,9 +95,7 @@ def gyroscope():
 
 @app.route('/accelerometer')
 def accelerometer():
-    data = get_imu(orientation=False, compass=False,
-                   gyroscope=True, accelerometer=False)
-    return jsonify(data)
+    return jsonify(sense.accelerometer_raw)
 
 
 @app.route('/humidity')
@@ -110,11 +108,7 @@ def humidity():
 def temperature(fahrenheit=False):
     fahrenheit = request.args.get('f', default=False, type=bool)
 
-    if fahrenheit:
-        return jsonify(9.0/5.0 * sense.temp + 32)
-    else:
-        return jsonify(sense.temp)
-
+    return jsonify(9.0/5.0 * sense.temp + 32)
 
 @app.route('/pressure')
 def pressure():
