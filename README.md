@@ -19,6 +19,12 @@ To start the website server:
 venv/bin/python3 server.py
 ```
 
+Access the server from a browser on the network
+You can fill in your Pi's hostname or IP instead of raspberrypi.local
+```
+http://raspberrypi.local:5000
+```
+
 ### Make it a cron job and have it start on boot!
 
 Access your crontab:
