@@ -7,7 +7,7 @@ This repo is intended to be run on a Raspberry Pi with a Sense Hat attached. The
 
 To setup the environment (this should be run on Raspberry Pi terminal):
 ```
-https://github.com/ender18g/SenseHat-Web-Demo.git
+git clone https://github.com/ender18g/SenseHat-Web-Demo.git
 cd SenseHat-Web-Demo
 python3 -m venv venv
 source venv/bin/activate
