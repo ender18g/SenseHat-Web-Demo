@@ -7,8 +7,8 @@ This repo is intended to be run on a Raspberry Pi with a Sense Hat attached. The
 
 To setup the environment (this should be run on Raspberry Pi terminal):
 ```
-git clone https://github.com/ender18g/Sense-Hat-Server.git
-cd Sense-Hat-Server
+https://github.com/ender18g/SenseHat-Web-Demo.git
+cd SenseHat-Web-Demo
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
@@ -28,7 +28,7 @@ crontab -e
 
 Add the following line:
 ```
-@reboot cd /home/pi/Sense-Hat-Server && venv/bin/python3 server.py
+@reboot cd /home/pi/SenseHat-Web-Demo && venv/bin/python3 server.py
 ```
 
 
