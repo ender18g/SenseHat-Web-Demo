@@ -1,4 +1,4 @@
-# Sense Hat Server
+# SenseHat Web Demo
 
 ## A full web-based demo of the Sense Hat Sensors
 
