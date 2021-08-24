@@ -1,3 +1,9 @@
 # Sense Hat Server
 
-Built for EW370 
+## A full web-based demo of the Sense Hat Sensors
+
+
+To get started:
+```
+git clone 
+```
