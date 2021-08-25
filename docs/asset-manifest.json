@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/static/js/main.6978317b.chunk.js",
+    "main.js.map": "/static/js/main.6978317b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25815024.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25815024.js.map",
+    "static/js/2.3a65b34a.chunk.js": "/static/js/2.3a65b34a.chunk.js",
+    "static/js/2.3a65b34a.chunk.js.map": "/static/js/2.3a65b34a.chunk.js.map",
+    "static/js/3.92184c7e.chunk.js": "/static/js/3.92184c7e.chunk.js",
+    "static/js/3.92184c7e.chunk.js.map": "/static/js/3.92184c7e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.3a65b34a.chunk.js.LICENSE.txt": "/static/js/2.3a65b34a.chunk.js.LICENSE.txt",
+    "static/media/raspi.c0f7c7bb.webp": "/static/media/raspi.c0f7c7bb.webp",
+    "static/media/sensehat_axis.53ddbe1c.png": "/static/media/sensehat_axis.53ddbe1c.png",
+    "static/media/spaceShip.ba63d907.svg": "/static/media/spaceShip.ba63d907.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25815024.js",
+    "static/js/2.3a65b34a.chunk.js",
+    "static/js/main.6978317b.chunk.js"
+  ]
+}
